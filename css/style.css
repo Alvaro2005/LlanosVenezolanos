@@ -1,0 +1,84 @@
+:root{
+    --primary-color: red;
+    --section-width: 100% !important;
+    --section-height-hero: 100vh !important;
+    --section-height: 60vh !important;
+    --font-peimary: 'Source Sans Pro', sans-serif;
+}
+
+.hero {
+    height: var(--section-height-hero);
+    width: 100%;
+    background: url("../img/images.jfif") no-repeat center / cover;
+    background-attachment: fixed;
+}
+
+
+.container-hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 1rem 1.5rem;
+}
+
+
+.text-container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 14rem;
+}
+
+.text-container-hero h1 {
+    color: #FFFFFF;
+    font-size: 4.5rem;
+    text-align: center;
+    margin: 1rem auto;
+    font-family: var(--font-peimary);
+    font-weight: 700;
+}
+
+
+.text-container-hero h2 {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem auto;
+    font-family: var(--font-peimary);
+
+}
+
+.mapa{
+    width: 100%;
+    background-color: red;
+}
+
+.mapa-second{
+    width: 12.5rem !important;
+}
+@media screen and (max-width: 576px) {
+    .mapa-second{
+        width: 20rem !important;
+    }
+}
+
+.of-deck{
+    opacity: 1 !important;
+    overflow: auto !important;
+    pointer-events: auto !important;
+    display: auto !important;
+}
+
+@media screen and (max-width: 724px) {
+   
+    .of-deck{
+        opacity: 0;
+        overflow: hidden;
+        pointer-events: none;
+        display: none;
+    }
+}
